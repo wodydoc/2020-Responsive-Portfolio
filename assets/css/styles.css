@@ -289,7 +289,14 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
+
+.skills__percentage{
+  font-size: x-small !important;
+}
 /* GRAPHIC AND WEB SOFTWARE */
+.skills__figma{
+  width: 45%;
+}
 .skills__illustrator{
   width: 100%;
 }
@@ -297,7 +304,7 @@ img{
   width: 100%;
 }
 .skills__photoshop{
-  width: 100%;
+  width: 90%;
 }
 .skills__sketch{
   width: 75%;
@@ -307,10 +314,13 @@ img{
   width: 100%;
 }
 .skills__html{
-  width: 95%;
+  width: 90%;
 }
 .skills__js{
-  width: 95%;
+  width: 90%;
+}
+.skills__jquery{
+  width: 45%;
 }
 .skills__react{
   width: 75%;
@@ -326,7 +336,7 @@ img{
   width: 75%;
 }
 .skills__premiere{
-  width: 95%;
+  width: 90%;
 }
 
 .skills__img{
