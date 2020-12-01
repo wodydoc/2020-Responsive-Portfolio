@@ -14,6 +14,10 @@
         <title>Cody Dow Web Design 2020</title>
     </head>
     <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
@@ -47,10 +51,10 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="mailto:wodydoc@gmail.com" class="home__social-icon"><i class='bx bxs-envelope' ></i></a>
-                    <a href="https://www.linkedin.com/in/codydow/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.vimeo.com/wodydoc" class="home__social-icon"><i class='bx bxl-vimeo' ></i></a>
-                    <a href="https://github.com/wodydoc" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="mailto:wodydoc@gmail.com" class="home__social-icon" target="_blank"><i class='bx bxs-envelope' ></i></a>
+                    <a href="https://www.linkedin.com/in/codydow/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.vimeo.com/wodydoc" class="home__social-icon" target="_blank"><i class='bx bxl-vimeo' ></i></a>
+                    <a href="https://github.com/wodydoc" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="home__img">    
@@ -305,6 +309,11 @@
                             <img src="assets/img/work5.gif" alt="Video Editing">
                         </a>
                     </div>
+                    <div class="work__img">
+                        <a href="https://www.youtube.com/playlist?list=PLBxPj2-nBG3uF1xBb1fxBIik2CfRTLEWA" target="_blank">
+                            <img src="assets/img/jpiivt.gif" alt="JPII virtual tour">
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -333,8 +342,8 @@
 
                 <div class="contact__container bd-grid">
                     <h2 class="about__subtitle">Say hello!</h2>
-                    <p class="about__text">📱 <a href="tel:+19727624577">972 762-4577</a></p>
-                    <p class="about__text">💬 <a href="mailto:wodydoc@gmail.com">wodydoc@gmail.com</a></p>
+                    <p class="about__text">📱 <a href="tel:+19727624577" target="_blank">972 762-4577</a></p>
+                    <p class="about__text">💬 <a href="mailto:wodydoc@gmail.com" target="_blank">wodydoc@gmail.com</a></p>
                     <br>
                     <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="codydow"><a class="LI-simple-link" href='https://es.linkedin.com/in/codydow?trk=profile-badge'>Cody Dow</a></div>
                 </div>
@@ -345,16 +354,19 @@
         <footer class="footer">
             <p class="footer__title">Cody Dow</p>
             <div class="footer__social">
-                <a href="mailto:wodydoc@gmail.com" class="footer__icon"><i class='bx bxs-envelope' ></i></a>
-                <a href="https://open.spotify.com/user/12157591116?si=TiEpkibrQx6Kc7zdp4QNYg" class="footer__icon"><i class='bx bxl-spotify' ></i></a>
-                <a href="https://www.instagram.com/cody.dow" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://www.vimeo.com/wodydoc" class="footer__icon"><i class='bx bxl-vimeo' ></i></a>
-                <a href="https://github.com/wodydoc" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="mailto:wodydoc@gmail.com" class="footer__icon" target="_blank"><i class='bx bxs-envelope' ></i></a>
+                <a href="https://open.spotify.com/user/12157591116?si=TiEpkibrQx6Kc7zdp4QNYg" class="footer__icon" target="_blank"><i class='bx bxl-spotify' ></i></a>
+                <a href="https://www.instagram.com/cody.dow" class="footer__icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.vimeo.com/wodydoc" class="footer__icon" target="_blank"><i class='bx bxl-vimeo' ></i></a>
+                <a href="https://github.com/wodydoc" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
 
             </div>
             <p>&#169; 2020 codycodes</p>
         </footer>
 
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
