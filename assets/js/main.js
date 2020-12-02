@@ -64,5 +64,11 @@ gsap.to(".first", 1.5, {delay: .5, top: "-100%", ease: Expo.easeInOut});
 gsap.to(".second", 1.5, {delay: .7, top: "-100%", ease: Expo.easeInOut});
 gsap.to(".third", 1.5, {delay: .9, top: "-100%", ease: Expo.easeInOut});
 
-// IMG
-// gsap.from('.home__img', {opacity: 0, duration: 2, delay: 2, x: 60})
+// VARIABLE TEXT ANIMATION
+var theText = "Cody";
+for (i = 0; i < theText.length; i++) {
+  delay = (i * 3) / theText.length;
+  var e = $("<span>" + theText[i] + "</span>");
+  $("div").append(e);
+  e.css("animation-delay", delay+"s");
+}

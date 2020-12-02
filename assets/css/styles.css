@@ -1,6 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -9,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
+  --first-color: #EA4335;
   --second-color: #5f6368;
 }
 
@@ -205,7 +205,24 @@ img{
 }
 .home__title-color{
   color: var(--first-color);
+  font-family: 'Comfortaa', cursive;
+  /* font-size: 5em; */
+  font-size: var(--big-font-size);
+  animation: 3s infinite variation;
 }
+
+@keyframes variation {
+  0% {
+    font-weight: 1;
+  }
+  50% {
+    font-weight: 900;
+  }
+  100% {
+    font-weight: 1;
+  }
+}
+
 .home__social{
   display: flex;
   flex-direction: column;
@@ -297,7 +314,7 @@ img{
 }
 
 .skills__percentage{
-  font-size: x-small !important;
+  font-size: 0.6em !important;
 }
 /* GRAPHIC AND WEB SOFTWARE */
 .skills__figma{
@@ -388,7 +405,7 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
+  background-color: #0E2431;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
