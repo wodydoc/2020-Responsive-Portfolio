@@ -1,6 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
-/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -200,12 +200,10 @@ img{
   align-self: center;
 }
 .home__title{
-  color: #9fa5ac;
+  /* color: #9fa5ac; */
   font-size: var(--big-font-size);
-  /* margin-bottom: var(--mb-5); */
 }
 .home__subtitle{
-  color: #5f6368;
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
 }
@@ -214,7 +212,7 @@ img{
   font-family: 'Comfortaa', cursive;
   /* font-size: 5em; */
   font-size: var(--big-font-size);
-  animation: 1.5s infinite variation;
+  animation: 1s infinite variation;
 }
 
 @keyframes variation {
